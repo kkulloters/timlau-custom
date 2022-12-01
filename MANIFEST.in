@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include timalau_custom *.css
+recursive-include timalau_custom *.csv
+recursive-include timalau_custom *.html
+recursive-include timalau_custom *.ico
+recursive-include timalau_custom *.js
+recursive-include timalau_custom *.json
+recursive-include timalau_custom *.md
+recursive-include timalau_custom *.png
+recursive-include timalau_custom *.py
+recursive-include timalau_custom *.svg
+recursive-include timalau_custom *.txt
+recursive-exclude timalau_custom *.pyc
