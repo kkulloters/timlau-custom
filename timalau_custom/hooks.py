@@ -12,6 +12,16 @@ app_license = "MIT"
 # Includes in <head>
 # ------------------
 
+
+fixtures = [
+	{
+		"doctype": "Workspace",
+		"filters": [["name", "in", [
+			"CRM"
+		]]]
+	}
+]
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/timalau_custom/css/timalau_custom.css"
 # app_include_js = "/assets/timalau_custom/js/timalau_custom.js"
