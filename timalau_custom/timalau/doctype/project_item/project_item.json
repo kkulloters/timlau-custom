@@ -1,0 +1,121 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-13 00:29:26.044546",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_code",
+  "column_break_2",
+  "item_name",
+  "section_break_4",
+  "description",
+  "image",
+  "section_break_7",
+  "qty",
+  "customize_detail_section",
+  "design",
+  "mock_up",
+  "column_break_12",
+  "method",
+  "column_break_14",
+  "area"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item Code",
+   "options": "Item"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "label": "Item Name"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach",
+   "label": "Image"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Qty"
+  },
+  {
+   "fieldname": "customize_detail_section",
+   "fieldtype": "Section Break",
+   "label": "CUSTOMIZE DETAIL"
+  },
+  {
+   "fieldname": "design",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Design",
+   "options": "\nD1\nD2\nD3\nD4\nD5\nD6\nD7\nD8\nD9\nD10\nD11\nD12\nD13\nD14\nD15"
+  },
+  {
+   "fieldname": "mock_up",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Mock Up / Artwork"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "method",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Method",
+   "options": "------\nSandblasting - Gold\nSandblasting - Sliver\nSandblasting - Matte\nSandblasting - Multiple Color\nBottle Label Sticker \u9152\u6a19\u8cbc\u7d19\nUV Printing\nLaser Engraving \u6fc0\u5149\u96d5\u523b\nTrophy Engraving \u6c34\u6676\u734e\u5ea7\n------\nRubber Printing\nDTG Printing (Non-White)\nDTG Prinitng ( White )\nScreen Printing\nGold Rubber\nSliver Rubber\nEmbroidery\nDye Sublimation\nWater Transfer\nFabric Printing \u5e03\u6599\u5370\u5237\nSticker Printing \u8cbc\u7d19\u5370\u5237\nCushion\u65b9\u578b\nCushion\u7570\u578b\nTattoo Sticker \u7d0b\u8eab\u8cbc\u7d19\n------\nBlank\nLogo\u8cbc\u7d19\nPreset Print \u534a\u56fa\u5b9a\u6b3e\u5f0f\nCard Printing \u5fc3\u610f\u5361\u5370\u5237"
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "area",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Area",
+   "options": "\n180 | \u505a\u6b63\u9762 | \u79fb\u9664\u80cc\u9762\n180 | \u505a\u6b63\u9762 | \u4fdd\u7559\u80cc\u9762\n180 | \u505a\u6b63\u9762 | \u4fdd\u7559\u5168\u90e8\n180 | \u505a\u6b63\u9762 | \u5168\u90e8\u4e0d\u7559\n---\n180 | \u505a\u80cc\u9762 | \u79fb\u9664\u6b63\u9762\n180 | \u505a\u80cc\u9762 | \u4fdd\u7559\u6b63\u9762\n180 | \u505a\u80cc\u9762 | \u4fdd\u7559\u5168\u90e8\n180 | \u505a\u80cc\u9762 | \u5168\u90e8\u4e0d\u7559\n---\n360 | \u4fdd\u7559\u6b63\u9762\n360 | \u4fdd\u7559\u80cc\u9762\n360 | \u4fdd\u7559\u5168\u90e8\n360 | \u5168\u90e8\u4e0d\u7559"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-05-13 00:36:05.267035",
+ "modified_by": "Administrator",
+ "module": "Timalau",
+ "name": "Project Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

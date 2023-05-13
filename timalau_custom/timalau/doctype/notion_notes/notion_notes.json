@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-24 17:43:22.755776",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date_and_time",
+  "project",
+  "check",
+  "comment"
+ ],
+ "fields": [
+  {
+   "fieldname": "date_and_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Date and Time"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project",
+   "options": "Project"
+  },
+  {
+   "default": "0",
+   "fieldname": "check",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Check"
+  },
+  {
+   "fieldname": "comment",
+   "fieldtype": "Text Editor",
+   "in_list_view": 1,
+   "label": "Comment"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-04-24 17:44:36.745721",
+ "modified_by": "Administrator",
+ "module": "Timalau",
+ "name": "Notion Notes",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

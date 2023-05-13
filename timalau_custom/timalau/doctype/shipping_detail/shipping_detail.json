@@ -1,0 +1,44 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-13 00:14:44.081271",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "shipping_docs",
+  "delivery_address",
+  "delivery_remark"
+ ],
+ "fields": [
+  {
+   "fieldname": "shipping_docs",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Shipping Docs \u904b\u55ae\u6587\u4ef6"
+  },
+  {
+   "fieldname": "delivery_address",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Delivery Address \u9001\u8ca8\u5730\u5740"
+  },
+  {
+   "fieldname": "delivery_remark",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Delivery Remark \u9001\u8ca8\u5099\u8a3b"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-05-13 00:15:44.588457",
+ "modified_by": "Administrator",
+ "module": "Timalau",
+ "name": "Shipping Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
