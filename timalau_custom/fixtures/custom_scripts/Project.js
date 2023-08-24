@@ -41,14 +41,21 @@ frappe.ui.form.on('Project', {
 	    }
 	},
 	refresh(frm){
-	 frm.set_query("sales_order", function() {
-      return {
-        filters: {
-          status: ["not in", "Closed, Cancelled, To Bill, Completed"],
-          company: frm.doc.company,
-          docstatus: 1
-        }
-      };
-    });
+		frm.set_df_property("naming_series", "hidden", 1);
+		if (frm.is_new() && frm.doc.sales_order){
+			frm.trigger("sales_order")
+		}
+		if (frm.is_new() && frm.doc.project_name){
+			frm.set_value("order_barcode", frm.doc.project_name)
+		}
+		frm.set_query("sales_order", function() {
+		return {
+			filters: {
+			status: ["not in", "Closed, Cancelled, To Bill, Completed"],
+			company: frm.doc.company,
+			docstatus: 1
+			}
+		};
+		});
 	}
 })
